@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Postman
+GenericName=REST Client
+Exec=postman
+Terminal=false
+Icon=/opt/postman/resources/app/assets/icon.png
+Type=Application
+Categories=Network;Development;
+Version=1.0
