@@ -1,0 +1,9 @@
+Package: Postman
+Version: 5.3.0
+Section: misc
+Priority: optional
+Architecture: amd64
+Maintainer: Alek Wyka <aks@cuphalfempty.net>
+Description: Postman
+  Wrapper for Postman
+  https://www.getpostman.com

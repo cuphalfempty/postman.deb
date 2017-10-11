@@ -1,0 +1,13 @@
+#!/bin/sh
+
+TAR_GZ="Postman-linux-x64-5.3.0.tar.gz"
+
+if [ ! -f "$HOME/$TAR_GZ" ];
+then
+    echo "Unable to find $TAR_GZ"
+    exit 1
+fi
+
+# TODO check if target dir is empty
+
+# vim: filetype=sh:
