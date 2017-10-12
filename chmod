@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ ! -n "$1" ]; then
+    echo "Select target directory"
+    return 1
+fi
+
+chmod -R a+r "$1"
+chmod -R u+w "$1"
+chmod -R go-w "$1"
+find "$1" -type d -exec chmod a+x {} \;
+
+# vim: filetype=sh:
