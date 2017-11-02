@@ -6,4 +6,4 @@ Terminal=false
 Icon=/opt/postman/resources/app/assets/icon.png
 Type=Application
 Categories=Network;Development;
-Version=5.3.0
+Version=5.3.2
