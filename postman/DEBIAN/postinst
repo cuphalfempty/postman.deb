@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TAR_GZ="Postman-linux-x64-5.3.2.tar.gz"
+TAR_GZ="Postman-linux-x64-5.4.1.tar.gz"
 
 tar -xf "$HOME/$TAR_GZ" -C /opt/postman/ --strip-components=1
 
