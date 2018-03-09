@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TAR_GZ="Postman-linux-x64-5.5.3.tar.gz"
+TAR_GZ="Postman-linux-x64-6.0.7.tar.gz"
 
 if [ ! -f "$HOME/$TAR_GZ" ];
 then
