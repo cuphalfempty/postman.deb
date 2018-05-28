@@ -4,6 +4,8 @@ Section: misc
 Priority: optional
 Architecture: amd64
 Maintainer: Alek Wyka <aks@cuphalfempty.net>
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: gconf-service, libgconf-2-4 (>= 3.2.5)
 Description: Postman
   Wrapper for Postman
   https://www.getpostman.com
