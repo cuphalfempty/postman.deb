@@ -10,6 +10,6 @@ chmod a+r -R $BUILD_DIR
 find $BUILD_DIR -type d -exec chmod a+x {} \;
 chmod a+x $BUILD_DIR/DEBIAN/p*
 
-dpkg-deb --build $BUILD_DIR postman_6.1.3.deb
+dpkg-deb --build $BUILD_DIR postman_6.5.2.deb
 
 # vim: filetype=sh:
